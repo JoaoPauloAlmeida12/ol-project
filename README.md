@@ -1,24 +1,12 @@
-# Olá Project
+# Clínica — gestão integrada
 
-ola
+Etapa 1: painel em português, navegação dos módulos e arquitetura de autenticação/autorização com Supabase. Nenhum dado de paciente é incluído.
 
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/90288362-2540-4a42-b647-254efbd3864e).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+Consulte [implantação, contratos e pendências](docs/etapa-1.md) e respeite [AGENTS.md](AGENTS.md). O banco e os segredos são gerenciados pelo [Lovable](https://lovable.dev/projects/90288362-2540-4a42-b647-254efbd3864e).
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+npm ci
 npm run dev
 ```
+
+Sem configuração Supabase, o painel permanece disponível e os módulos ficam bloqueados. Não há sessão de demonstração. Não usar com dados clínicos reais antes da configuração e validação das políticas no backend.
